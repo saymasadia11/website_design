@@ -55,7 +55,7 @@
     margin-bottom: 15px;
 }
 .btn{
-    padding:10px,20px;
+    padding: 10px;
     background-color: darkolivegreen;
     color: azure;
     border: none;
@@ -63,5 +63,65 @@
     font-size: 15px;
 }
 .btn:hover{
-    color: black;
+    color: #eee;
+    background-color: black;
+    
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 50vh;
+
+}
+.about-img{
+    width: 300px;
+    height: 200px;
+}
+.about-title{
+    text-align: center;
+    padding: 10px;
+    font-size: 55px;
+    font-weight: bold;
+}
+.about-dis{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.box{
+    width: 230px;
+    height: 300px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: rgb(226, 119, 43);
+    text-align: center;
+    padding: 15px;
+    color: aliceblue;
+}
+.icon{
+    width: 70px;
+}
+.box-btn{
+    background-color: gray;
+    margin-top:10px;
+}
+.box-title{
+    padding: 10px;
+    
+
+}
+.box-disc{
+    padding: 10px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-image: linear-gradient(45deg, rgb(75, 67, 67), rgb(131, 131, 107));
+    box-shadow: inset green;
+    
 }
